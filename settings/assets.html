@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>资产终端状态栏 · MUFY Tools</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{min-width:320px;min-height:100vh;margin:0;background:radial-gradient(circle at 8% -8%,rgba(121,199,239,.055),transparent 30%),#0d1620;color:#d2dde3;font-family:"Microsoft YaHei","PingFang SC","Segoe UI",sans-serif;font-size:15px}.shell{display:flex;min-height:100vh;width:min(1080px,calc(100% - 40px));margin:0 auto;flex-direction:column;padding:28px 0 24px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:26px}.brand{color:#e7c36b;font-size:13px;font-weight:800;letter-spacing:.12em;user-select:none}.directory{position:relative}.directory summary{padding:6px 10px;border:1px solid #30495a;border-radius:8px;background:#13212d;color:#79c7ef;cursor:pointer;list-style:none;font-weight:700;user-select:none}.directory summary::-webkit-details-marker{display:none}.directory-menu{position:absolute;z-index:30;top:38px;right:0;display:grid;min-width:150px;padding:6px;border:1px solid #30495a;border-radius:10px;background:#111f2a;box-shadow:0 12px 28px rgba(0,0,0,.28)}.directory-menu a{padding:8px 10px;border-radius:7px;color:#d2dde3;text-decoration:none;font-size:13px}.directory-menu a:hover,.directory-menu a.active{background:rgba(121,199,239,.12);color:#79c7ef}.crumb{margin-bottom:16px}.crumb a{color:#79c7ef;text-decoration:none;font-size:13px}.intro{margin-bottom:28px}.intro h1{margin:0;font-size:30px;user-select:none}.preview-card,.copy-card{border:1px solid #30495a;border-radius:14px;background:#13212d;box-shadow:0 12px 28px rgba(0,0,0,.16)}.preview-card{padding:20px}.section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 14px}.section-title h2{margin:0;font-size:18px;user-select:none}.hint{color:#8ea0aa;font-size:12px}.preview-stage{padding:18px;border:1px solid #223846;border-radius:11px;background:#09141b}.preview-stage>.xwj-assets{max-width:480px;margin:10px auto}.copy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:22px}.copy-card{display:flex;min-height:142px;flex-direction:column;padding:17px}.copy-card h2{margin:0 0 8px;font-size:16px;user-select:none}.copy-card p{margin:0;color:#8ea0aa;font-size:13px;line-height:1.6}.copy{margin-top:auto;align-self:flex-start;padding:7px 12px;border:1px solid rgba(121,199,239,.42);border-radius:8px;background:rgba(121,199,239,.11);color:#79c7ef;font:inherit;font-size:13px;cursor:pointer}.copy.done{border-color:rgba(136,203,162,.5);background:rgba(136,203,162,.1);color:#88cba2}.notice{position:fixed;right:18px;bottom:18px;padding:10px 13px;border:1px solid rgba(136,203,162,.4);border-radius:9px;background:#14271f;color:#88cba2;font-size:14px;opacity:0;transform:translateY(7px);pointer-events:none;transition:.16s}.notice.show{opacity:1;transform:none}.footer{margin-top:auto;padding-top:24px;border-top:1px solid #223846;color:#8ea0aa;font-size:13px;text-align:center}@media(max-width:760px){.shell{width:calc(100% - 30px);padding-top:20px}.intro h1{font-size:25px}.preview-card{padding:14px}.preview-stage{padding:10px}.copy-grid{grid-template-columns:1fr}.copy-card{min-height:118px}}</style></head><body><main class="shell"><div class="top"><span class="brand">MUFY TOOLS</span><details class="directory"><summary>目录</summary><div class="directory-menu"><a href="../index.html">主页</a><a href="../token.html">Token统计器</a><a class="active" href="../settings.html">公开设定</a></div></details></div><div class="crumb"><a href="../settings.html">← 返回公开设定</a></div><section class="intro"><h1>资产终端状态栏</h1></section><section class="preview-card"><div class="section-title"><h2>渲染效果</h2><span class="hint">默认收起，点击标题栏展开</span></div><div class="preview-stage"><details class="xwj-assets"><summary><span class="xwj-assets-title"><i></i><span>资产终端</span></span><span class="xwj-assets-net"><small>净资产</small>¥3,321,250.00</span></summary><div class="xwj-assets-body"><div class="xwj-assets-overview"><div class="xwj-assets-stat"><b>流动资金</b><span>¥128,450.00</span></div><div class="xwj-assets-stat"><b>房产</b><span>¥3,860,000.00</span></div><div class="xwj-assets-stat"><b>其他资产</b><span>¥612,800.00</span></div><div class="xwj-assets-stat"><b>负债</b><span>¥1,280,000.00</span></div></div><div class="xwj-assets-detail"><div class="xwj-assets-detail-head">资产明细</div><div class="xwj-assets-detail-row"><b>房产</b><span>住宅｜100%｜估值¥3,860,000.00｜持有</span></div><div class="xwj-assets-detail-row"><b>其他</b><span>指数基金｜投资｜¥612,800.00｜持有</span></div><div class="xwj-assets-detail-row"><b>负债</b><span>住房贷款｜剩余¥1,280,000.00｜正常还款</span></div></div><div class="xwj-flow-wrap"><div class="xwj-flow-head"><span>最近流水</span><span class="xwj-flow-order">最新在上</span></div><div class="xwj-flow-list"><div class="xwj-flow-row">2026-08-30 12:18｜收款｜+¥8,500.00｜项目款｜现金¥128,450.00</div><div class="xwj-flow-row">2026-08-29 19:40｜消费｜-¥326.00｜日常支出｜现金¥119,950.00</div><div class="xwj-flow-row">2026-08-28 09:10｜还款｜-¥5,000.00｜住房贷款｜负债¥1,280,000.00</div><div class="xwj-flow-row">2026-08-26 15:20｜投资｜+¥3,200.00｜基金收益｜其他资产¥612,800.00</div><div class="xwj-flow-row">2026-08-24 17:48｜收款｜+¥2,832.00｜零花钱｜现金¥117,776.00</div></div></div></div></details></div></section><section class="copy-grid"><article class="copy-card"><h2>输出设定</h2><p>资产账本的初始化、更新、净资产和流水规则。</p><button class="copy" data-copy="output">复制输出设定</button></article><article class="copy-card"><h2>正则</h2><p>目标字符与替换字符。</p><button class="copy" data-copy="regex">复制正则</button></article><article class="copy-card"><h2>全局美化</h2><p>放大字号后的状态栏 CSS。</p><button class="copy" data-copy="css">复制全局美化</button></article></section><footer class="footer">@ez-owo</footer></main><div id="notice" class="notice"></div><script type="text/plain" id="copy-output"># 【Assets｜资产终端】
+Assets是{{user}}在本卡中的自动资产账本。它不是现实金融核验，也不需要{{user}}逐项确认；AI必须根据已经建立的设定、剧情事实和系统资金自动维护。
+
+固定结构：
+```xml
+<Assets>
+<Cash>流动资金</Cash>
+<PropertyTotal>房产合计</PropertyTotal>
+<PropertyList>房产明细</PropertyList>
+<OtherTotal>其他资产合计</OtherTotal>
+<OtherList>其他资产明细</OtherList>
+<DebtTotal>负债合计</DebtTotal>
+<DebtList>负债明细</DebtList>
+<Net>净资产</Net>
+<Flow1>最近第1条流水</Flow1>
+<Flow2>最近第2条流水</Flow2>
+<Flow3>最近第3条流水</Flow3>
+<Flow4>最近第4条流水</Flow4>
+<Flow5>最近第5条流水</Flow5>
+</Assets>
+```
+
+固定顺序：`Cash → PropertyTotal → PropertyList → OtherTotal → OtherList → DebtTotal → DebtList → Net → Flow1 → Flow2 → Flow3 → Flow4 → Flow5`
+
+## 自动初始化
+- 有上一轮Assets时，上一轮完整Assets是唯一期初账本，再根据本轮发生的经济变化更新。
+- 没有可继承Assets时，先读取当前已经建立的{{user}}职业、收入层级、生活状态、房产/车辆/投资/负债等事实，并自动形成首次账本。
+- 设定明确存在某项资产或负债、但没有精确金额时，AI根据当前时代、城市、职业与生活层级给出保守合理估值，并在明细里标注`估值`；后续出现精确金额时，用精确值替换估值。
+- 如果当前设定完全没有提供任何个人资产信息，不追问、不等待确认，直接把本卡账本初始化为：`Cash ¥0.00 / PropertyTotal ¥0.00 / PropertyList 暂无 / OtherTotal ¥0.00 / OtherList 暂无 / DebtTotal ¥0.00 / DebtList 暂无 / Net ¥0.00 / Flow1—Flow5 暂无`。
+- 上述`¥0.00`表示本卡当前纳入账本的起始值，不宣称{{user}}现实中没有其他资产。
+- Assets中禁止使用`未确认`、`待确认`、`未登记`、`计入值未定`、`（AI填充）`作为持续状态，也禁止要求{{user}}先确认才能更新。
+
+## 自动更新
+以下事件一旦在剧情中真实发生，本轮Assets必须同步变化：
+- 明确收到工资、奖金、退款、转账、礼金或其他现金收入；
+- 明确发生消费、付款、转账、赔偿或其他现金支出；
+- 明确获得、出售、赠与、损失房产或其他资产；
+- 明确新增、偿还或免除负债；
+- 剧情中出现足以改变既有估值的可靠信息。
+
+不得凭空创造经济事件，但已经发生的经济事件不得漏记。
+
+### Cash
+- `Cash新值 = Cash旧值 + 本轮已发生现金流入 - 本轮已发生现金流出`。
+
+### Property / Other / Debt
+- 房产：`名称｜产权/份额｜¥金额或估值¥金额｜状态`
+- 其他资产：`名称｜类别/份额｜¥金额或估值¥金额｜状态`
+- 负债：`名称｜剩余¥金额或估值¥金额｜用途/状态`
+- 多项用`；`分隔；没有项目写`暂无`。
+- 已建立项目不得无原因消失；精确金额出现后不得再退回估值。
+
+### Net
+每轮自动重算：
+`Net = Cash + PropertyTotal + OtherTotal - DebtTotal`
+所有总额统一使用当前账本中的精确值或估值，因此Net始终输出一个可计算金额，不再输出`待确认`。
+
+## 最近5条流水
+`Flow1最新 → Flow2 → Flow3 → Flow4 → Flow5最旧`
+格式：`YYYY-MM-DD HH:mm｜类型｜±¥金额/资产¥金额｜摘要｜余额/总额`
+
+例如：
+`2026-08-24 17:48｜收款｜+¥2,832.00｜零花钱｜现金¥2,832.00`
+
+规则：
+- 新流水插入Flow1；原Flow1→Flow2，依次下移；超过5条删除最旧一条。
+- 没有历史流水统一写`暂无`。
+- 流水末尾Cash必须与本轮`<Cash>`一致。</script><script type="text/plain" id="copy-regex">目标字符：
+<Assets>
+<Cash>¥0.00</Cash>
+<PropertyTotal>¥0.00</PropertyTotal>
+<PropertyList>暂无</PropertyList>
+<OtherTotal>¥0.00</OtherTotal>
+<OtherList>暂无</OtherList>
+<DebtTotal>¥0.00</DebtTotal>
+<DebtList>暂无</DebtList>
+<Net>¥0.00</Net>
+<Flow1>暂无</Flow1>
+<Flow2>暂无</Flow2>
+<Flow3>暂无</Flow3>
+<Flow4>暂无</Flow4>
+<Flow5>暂无</Flow5>
+</Assets>
+
+替换字符：
+<details class="xwj-assets"><summary><span class="xwj-assets-title"><i></i><span> 资 产 终 端 </span></span><span class="xwj-assets-net"><small> 净 资 产 </small>$8</span></summary><div class="xwj-assets-body"><div class="xwj-assets-overview"><div class="xwj-assets-stat"><b> 流 动 资 金 </b><span>$1</span></div><div class="xwj-assets-stat"><b> 房 产 </b><span>$2</span></div><div class="xwj-assets-stat"><b> 其 他 资 产 </b><span>$4</span></div><div class="xwj-assets-stat"><b> 负 债 </b><span>$6</span></div></div><div class="xwj-assets-detail"><div class="xwj-assets-detail-head"> 资 产 明 细 </div><div class="xwj-assets-detail-row"><b> 房 产 </b><span>$3</span></div><div class="xwj-assets-detail-row"><b> 其 他 </b><span>$5</span></div><div class="xwj-assets-detail-row"><b> 负 债 </b><span>$7</span></div></div><div class="xwj-flow-wrap"><div class="xwj-flow-head"><span> 最 近 流 水 </span><span class="xwj-flow-order"> 最 新 在 上 </span></div><div class="xwj-flow-list"><div class="xwj-flow-row">$9</div><div class="xwj-flow-row">$10</div><div class="xwj-flow-row">$11</div><div class="xwj-flow-row">$12</div><div class="xwj-flow-row">$13</div></div></div></div></details></script><script type="text/plain" id="copy-css">.xwj-assets{box-sizing:border-box;width:100%;min-width:0;margin:10px 0;color:#f1f3f6;font-family:"Segoe UI Variable Text","PingFang SC","Microsoft YaHei",sans-serif;overflow:hidden;position:relative;border:1px solid rgba(114,200,216,.28);border-radius:12px;background:radial-gradient(circle at 88% 0,rgba(114,200,216,.09),transparent 34%),radial-gradient(circle at 8% 100%,rgba(116,214,178,.055),transparent 32%),repeating-linear-gradient(0deg,rgba(255,255,255,.006) 0 1px,transparent 1px 4px),linear-gradient(145deg,#07181e,#071318 58%,#061015);box-shadow:0 0 0 1px rgba(114,200,216,.03),0 0 24px rgba(114,200,216,.045),0 12px 30px rgba(0,5,10,.32)}
+.xwj-assets>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;position:relative;z-index:2;min-height:50px;padding:9px 14px 9px 16px;border-bottom:1px solid rgba(114,200,216,.14);background:linear-gradient(90deg,rgba(114,200,216,.055),transparent 70%);box-shadow:inset 3px 0 rgba(116,214,178,.70);list-style:none;cursor:pointer;user-select:none}
+.xwj-assets>summary::-webkit-details-marker{display:none}
+.xwj-assets:before,.xwj-assets:after{content:"";position:absolute;z-index:5;width:18px;height:18px;pointer-events:none}.xwj-assets:before{top:7px;left:7px;border-top:1px solid rgba(116,214,178,.62);border-left:1px solid rgba(116,214,178,.62)}.xwj-assets:after{right:7px;bottom:7px;border-right:1px solid rgba(114,200,216,.58);border-bottom:1px solid rgba(114,200,216,.58)}
+.xwj-assets-title{display:flex;align-items:center;gap:8px;min-width:0;color:#d9f2ed;font-size:14px;font-weight:800}.xwj-assets-title>i{display:block;width:6px;height:6px;flex:0 0 6px;border-radius:50%;background:#7be0b9;box-shadow:0 0 9px rgba(123,224,185,.65)}
+.xwj-assets-net{color:#bdf5df;font-family:ui-monospace,"Cascadia Mono","SFMono-Regular",Consolas,monospace;font-size:17px;font-weight:800;text-align:right;text-shadow:0 0 10px rgba(116,214,178,.16)}.xwj-assets-net small{display:block;margin-bottom:2px;color:#668c93;font-family:"Segoe UI Variable Text","PingFang SC","Microsoft YaHei",sans-serif;font-size:10.5px;font-weight:600}
+.xwj-assets-body{position:relative;z-index:2;padding:10px 11px 11px}
+.xwj-assets-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));overflow:hidden;border:1px solid rgba(114,200,216,.10);border-radius:8px;background:rgba(114,200,216,.08)}
+.xwj-assets-stat{min-width:0;padding:9px 10px;background:#081b21}.xwj-assets-stat:not(:first-child){border-left:1px solid rgba(114,200,216,.08)}.xwj-assets-stat b{display:block;margin-bottom:4px;color:#6f9fa7;font-size:10.5px;font-weight:700}.xwj-assets-stat span{display:block;color:#e4f3ef;font-family:ui-monospace,"Cascadia Mono","SFMono-Regular",Consolas,monospace;font-size:12.5px;line-height:1.45;overflow-wrap:anywhere}
+.xwj-assets-detail{margin-top:8px;overflow:hidden;border:1px solid rgba(114,200,216,.10);border-radius:8px;background:#081a20}.xwj-assets-detail-head{padding:8px 10px;border-bottom:1px solid rgba(114,200,216,.08);color:#a8c9c2;font-size:11px;font-weight:700}.xwj-assets-detail-row{display:grid;grid-template-columns:48px minmax(0,1fr);gap:8px;padding:8px 10px;border-bottom:1px solid rgba(114,200,216,.055);font-size:11px;line-height:1.55}.xwj-assets-detail-row:last-child{border-bottom:0}.xwj-assets-detail-row b{color:#759ca0}.xwj-assets-detail-row span{color:#c9d9d6;overflow-wrap:anywhere}
+.xwj-flow-wrap{position:relative;margin-top:8px;overflow:hidden;border:1px solid rgba(114,200,216,.10);border-radius:8px;background:#081a20}.xwj-flow-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px;border-bottom:1px solid rgba(114,200,216,.08);color:#a8c9c2;font-size:11px;font-weight:700}.xwj-flow-order{color:#628b84;font-size:10px;font-weight:500}.xwj-flow-list{width:100%;min-width:0}.xwj-flow-row{padding:7px 10px;border-bottom:1px solid rgba(114,200,216,.055);color:#9fb7b3;font-family:ui-monospace,"Cascadia Mono","SFMono-Regular",Consolas,monospace;font-size:10.5px;line-height:1.5;overflow-wrap:anywhere}.xwj-flow-row:last-child{border-bottom:0}.xwj-flow-row:first-child{color:#e0f3ee;background:linear-gradient(90deg,rgba(116,214,178,.045),transparent 72%)}
+@media(max-width:720px){.xwj-assets-overview{grid-template-columns:repeat(2,minmax(0,1fr))}.xwj-assets-overview .xwj-assets-stat:nth-child(3){border-left:0;border-top:1px solid rgba(114,200,216,.08)}.xwj-assets-overview .xwj-assets-stat:nth-child(4){border-top:1px solid rgba(114,200,216,.08)}}
+@media(max-width:520px){.xwj-assets-title{font-size:13px}.xwj-assets-net{font-size:16px}.xwj-assets-stat b{font-size:10px}.xwj-assets-stat span{font-size:12px}.xwj-assets-detail-row,.xwj-flow-head{font-size:10.5px}.xwj-flow-row{font-size:10px}}
+/* 可选激光扫描补丁 */
+.xwj-assets::after{content:"";position:absolute;left:0;right:0;top:-58px;bottom:auto;width:auto;height:58px;z-index:8;border:0;pointer-events:none;box-sizing:border-box;opacity:0;background:linear-gradient(180deg,transparent 0%,rgba(114,200,216,.07) 24%,rgba(116,214,178,.22) 48%,rgba(226,255,248,.58) 55%,rgba(114,200,216,.18) 63%,transparent 100%);box-shadow:0 10px 22px rgba(114,200,216,.07);will-change:top,opacity}
+.xwj-assets[open]::after{animation:xwjAssetsScan 3.2s cubic-bezier(.20,.55,.34,1) 1 both}
+@keyframes xwjAssetsScan{0%{top:-58px;opacity:0}7%{opacity:1}88%{opacity:.92}100%{top:calc(100% - 12px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.xwj-assets::after{animation:none;opacity:0}}</script><script>const css=document.getElementById("copy-css").textContent.trim();const s=document.createElement("style");s.textContent=css;document.head.appendChild(s);const n=document.getElementById("notice");let t=0;function toast(x){clearTimeout(t);n.textContent=x;n.classList.add("show");t=setTimeout(()=>n.classList.remove("show"),1600)}async function cp(x){if(navigator.clipboard&&window.isSecureContext)return navigator.clipboard.writeText(x);const a=document.createElement("textarea");a.value=x;a.style.cssText="position:fixed;opacity:0";document.body.appendChild(a);a.select();const ok=document.execCommand("copy");a.remove();if(!ok)throw 0}document.querySelectorAll("[data-copy]").forEach(b=>b.onclick=async()=>{const x=document.getElementById("copy-"+b.dataset.copy).textContent.trim();try{await cp(x);b.classList.add("done");const old=b.textContent;b.textContent="已复制";toast("✓ 已复制");setTimeout(()=>{b.classList.remove("done");b.textContent=old},1000)}catch(e){toast("复制失败，请手动复制")}});</script></body></html>
